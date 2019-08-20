@@ -156,3 +156,6 @@ With text cnn implement movies recommend:
 
 # 许可
 Licensed under the MIT License with the [`996ICU License`](https://github.com/996icu/996.ICU/blob/master/LICENSE).
+
+# Tensorflow注解
+1. tf.nn.zero_fraction()的作用是将输入的Tensor中0元素在所有元素中所占的比例计算并返回，因为relu激活函数有时会大面积的将输入参数设为0，所以此函数可以有效衡量relu激活函数的有效性。
